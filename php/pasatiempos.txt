@@ -1,0 +1,241 @@
+Nombres: LUIS
+Apellidos: VILLMARIN
+Cedula: 1111111111
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Soltero
+Educacion: Universidad
+Escuela: aaaaaaaaaaaa
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+Color favorito: #4f4040
+Peso (kg): 128
+--------------------------
+Nombres: LUIS
+Apellidos: VILLMARIN
+Cedula: 1111111111
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Soltero
+Educacion: Universidad
+Escuela: aaaaaaaaaaaa
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+- Otro
+Otro: Comer
+Color favorito: #4f4040
+Peso (kg): 128
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1752590339
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Casado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+- Música
+Color favorito: #00bfff
+Peso (kg): 128
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1752590339
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Casado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+- Música
+Color favorito: #00bfff
+Peso (kg): 128
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1752590339
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Casado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+- Música
+Color favorito: #00bfff
+Peso (kg): 128
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1752590339
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Casado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+- Música
+Color favorito: #00bfff
+Peso (kg): 128
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1752590339
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Casado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+- Música
+Color favorito: #00bfff
+Peso (kg): 128
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1752590339
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Casado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+- Música
+Color favorito: #00bfff
+Peso (kg): 128
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1752590339
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Casado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Arte
+- Música
+Color favorito: #00bfff
+Peso (kg): 128
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1111111111
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Prefiero no decirlo
+Estado Civil: Divorciado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+Color favorito: #ff0000
+Peso (kg): 100
+--------------------------
+Nombres: Daniela
+Apellidos: Tituaña
+Cedula: 1111111111
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Prefiero no decirlo
+Estado Civil: Divorciado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+Color favorito: #ff0000
+Peso (kg): 100
+--------------------------
+Nombres: s
+Apellidos: s
+Cedula: 1111111111
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Masculino
+Estado Civil: Divorciado
+Educacion: Universidad
+Escuela: Abelardo Flores
+Colegio: aa
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Arte
+Color favorito: #462b2b
+Peso (kg): 100
+--------------------------
+Nombres: s
+Apellidos: s
+Cedula: 1111111111
+Celular: 0979028781
+Fecha de Nacimiento: 
+Genero: Masculino
+Estado Civil: Divorciado
+Educacion: Universidad
+Escuela: Abelardo Flores
+Colegio: aa
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Arte
+- Música
+Color favorito: #462b2b
+Peso (kg): 100
+--------------------------
+Nombres: LUIS
+Apellidos: VILLMARIN
+Cedula: 4545455555
+Celular: 1111111111
+Fecha de Nacimiento: 
+Genero: Femenino
+Estado Civil: Divorciado
+Educacion: Colegio
+Escuela: Abelardo Flores
+Colegio: Unidad Educativa Andrew
+Universidad: Universidad de las Fuerzas Armadas ESPE
+Pasatiempos: 
+- Deportes
+- Arte
+Color favorito: #ff0000
+Peso (kg): 100
+--------------------------

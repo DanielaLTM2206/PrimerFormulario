@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Formulario de Datos Personales</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 0;
+  }
+  .contenedor-fieldset {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Para que los fieldsets se ajusten automáticamente */
+  }
+  fieldset {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: #C8C8E3;
+    padding: 20px;
+  }
+  form {
+    text-align: center;
+    max-width: 1200px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+  }
+  button[type="submit"],
+  input[type="reset"] {
+    background-color: #B8CBCB;
+    color: white;
+    cursor: pointer;
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+
+<body>
+<form id="form1" name="formulario" action="php/envios.php" method="post">
+<div class="contenedor-fieldset">
+  <fieldset>
+    <legend id="datosPersonales"><h2>Datos Personales</h1></legend>
+    <p>
+      <label for="nombres">Nombres: </label>
+      <input type="text" name="nombres" id="nombres" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Por favor, ingrese solo letras." />
+    </p>
+    <p>
+      <label for="apellidos">Apellidos: </label>
+      <input type="text" name="apellidos" id="apellidos" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Por favor, ingrese solo letras." />
+    </p>
+    <p>
+      <label for="cedula">Cédula: </label>
+      <input type="text" name="cedula" id="cedula" pattern="[0-9]{7,10}" maxlength="10" title="La cédula debe tener entre 7 y 10 dígitos y solo puede contener números." required />
+    </p>
+    <p>
+      <label for="celular">Celular: </label>
+      <input type="text" name="celular" id="celular" pattern="[0-9]{10}" maxlength="10" title="Debe tener 10 dígitos y solo puede contener números." required />
+    </p>
+    <p>
+        <label for="email" style="display:inline-block; width:100px;">Correo:</label>
+        <input type="text" name="email" id="email" pattern"[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)[.][a-zA-Z]{2,5}" required/>
+      </p>
+    
+    <p>Selecciona tu Género:</p>
+    <p>
+      <input type="radio" id="masculino" name="genero" value="Masculino" required>
+      <label for="masculino">Masculino</label>
+    </p>
+    <p>
+      <input type="radio" id="femenino" name="genero" value="Femenino">
+      <label for="femenino">Femenino</label>
+    </p>
+    <p>
+      <input type="radio" id="noDecirlo" name="genero" value="Prefiero no decirlo">
+      <label for="noDecirlo">Prefiero no decirlo</label>
+    </p>
+    <p>
+      <label for="estado">Estado Civil: </label>
+      <select name="estado" id="estado" required>
+        <option value="">Selecciona una opción</option>
+        <option value="Soltero">Soltero</option>
+        <option value="Casado">Casado</option>
+        <option value="Divorciado">Divorciado</option>
+        <option value="Union Libre">Union Libre</option>
+      </select>
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <legend><h2>Educación</h2></legend>
+    <p>Nivel de Educación:</p>
+    <p>
+      <input type="radio" id="escuela" name="educacion" value="Escuela" required>
+      <label for="escuela">Escuela</label>
+    </p>
+    <p>
+      <input type="radio" id="colegio" name="educacion" value="Colegio">
+      <label for="colegio">Colegio</label>
+    </p>
+    <p>
+      <input type="radio" id="universidad" name="educacion" value="Universidad">
+      <label for="universidad">Universidad</label>
+    </p>
+    <p>
+      <label for="escuela">Escuela: </label>
+      <input type="text" name="escuela" id="escuela" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Por favor, ingrese solo letras.">
+    </p>
+    <p>
+      <label for="colegio">Colegio: </label>
+      <input type="text" name="colegio" id="colegio" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Por favor, ingrese solo letras.">
+    </p>
+    <p>
+      <label for="universidad">Universidad: </label>
+      <input type="text" name="universidad" id="universidad" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Por favor, ingrese solo letras.">
+    </p>
+  </fieldset>
+
+  <fieldset>
+    <legend><h2>Hobbies</h2></legend>
+    <p>Selecciona tus pasatiempos favoritos:</p>
+    <p>
+       <input type="checkbox" id="lectura" name="pasatiempos[]" value="Lectura">
+            <label for="lectura">Lectura</label><br><br>
+            <input type="checkbox" id="deportes" name="pasatiempos[]" value="Deportes">
+            <label for="deportes">Deportes</label><br><br>
+            <input type="checkbox" id="arte" name="pasatiempos[]" value="Arte">
+            <label for="arte">Arte</label><br><br>
+            <input type="checkbox" id="musica" name="pasatiempos[]" value="Música">
+            <label for="musica">Música</label><br><br>
+            <input type="checkbox" id="viajes" name="pasatiempos[]" value="Viajes">
+            <label for="viajes">Viajes</label><br><br>
+            <input type="checkbox" id="otroCheck" name="pasatiempos[]" value="Otro">
+            <label for="otroCheck">Otro: </label>
+            <textarea name="otro" id="otro" cols="30" rows="3"></textarea>
+    </p>
+   
+   
+    <p>
+      <label for="favcolor">Selecciona tu color favorito:</label>
+      <input type="color" id="favcolor" name="favcolor" value="#ff0000" required>
+    </p>
+    <p>
+      <label for="peso">Selecciona tu peso (kg): </label>
+      <input type="range" id="peso" name="peso" min="0" max="200" oninput="pesoOutput.value = `${this.value} kg`">
+      <output id="pesoOutput">50 kg</output>
+    </p>
+  </fieldset>
+</div>
+
+<p>
+  <button type="submit">Enviar</button>
+  <input type="reset" value="Reset">
+</p>
+
+</form>
+</body>
+</html>
